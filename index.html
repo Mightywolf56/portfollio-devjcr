@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" type="image/svg+xml" href="/public/cowboy-hat.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dev Jose Cienfuegos Rios</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Menu encabezado -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">JCR</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="select()">PRINCIPAL</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#cv" onclick="select()">CV</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/profileImage.png" alt="">
+            </div>
+            <h1>Jose Cienfuegos Rios</h1>
+            <h2>Full-Stack Web developer </h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="aboutme" class="aboutme">
+        <div class="container-aboutme">
+            <h2>About me</h2>
+            <p><span>Hi i'am Jose Cienfuegos Rios, </span>im Full-stack software developer, I'm the kind of person who likes to get new challenges and goals, i like to learn new technologies and  ability to adapt to the work team or project environment, If you are looking for full stack developer, we can talk abou it, contact me in my email. </p>
+        </div>
+
+        <div class="file">
+            <!-- personal infomation -->
+            <div class="col">
+                <h3>Personal Info</h3>
+                <ul>
+                    <li>
+                        <strong>Telephone</strong>
+                        +526623326565
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        jcienfuegosrios@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+            <!-- personal interests -->
+            <div class="col">
+                <h2>Interests</h2>
+                <div class="container-interests">
+                    <div class="interests">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>GAMES</span>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSIC</span>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-car"></i>
+                        <span>CARS</span>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-video"></i>
+                        <span>MOVIES</span>
+                    </div>
+                    <div class="interests">
+                        <i class="fa-solid fa-hat-cowboy"></i>
+                        <span>RANCHES</span>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <button>
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="file">
+            <!-- SECCION TECHNICAL SKILLS -->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skills">
+                    <span>javascript</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>75%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <span>HTML & CSS</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <span>ReactJS</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>75%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <span>NodeJS</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- PROFESIONAL SKILLS -->
+            <div class="col">
+                <h3>Profesional Skills</h3>
+                <div class="skills">
+                    <span>Comunication</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>80%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <span>Team Worker</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>80%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <span>Creative</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>90%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills">
+                    <span>English</span>
+                    <div class="skill-bar">
+                        <div class="progress">
+                            <span>78%</span>
+                        </div>
+                    </div>
+
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SECCION CV -->
+    <section id="cv" class="cv">
+        <div class="content-cv">
+            <h2>CV</h2>
+            <div class="file">
+                <div class="left-col">
+                    <h3>Education</h3>
+                    <div class="item">
+                        <h4>School of technology</h4>
+                        <span class="casa">Academlo</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem totam error voluptatibus, sed voluptatem, dolorum magnam porro, repellat sunt voluptatum nobis? Harum molestias architecto, saepe minus itaque earum vero?</p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h4>School of technology</h4>
+                        <span class="casa">Academlo</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem totam error voluptatibus, sed voluptatem, dolorum magnam porro, repellat sunt voluptatum nobis? Harum molestias architecto, saepe minus itaque earum vero?</p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="right-col">
+                    <h3>Work experiences</h3>
+                    <div class="item">
+                        <h4>Administrator and team manager for cattle management</h4>
+                        <span class="casa">"Granja los primos"</span>
+                        <span class="date">2018 - 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem totam error voluptatibus, sed voluptatem, dolorum magnam porro, repellat sunt voluptatum nobis? Harum molestias architecto, saepe minus itaque earum vero?</p>
+                        <div class="conectorR">
+                            <div class="circleR"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h4>Promotion Telephone</h4>
+                        <span class="casa">TYT call center</span>
+                        <span class="date">2018 - 2018</span>
+                        <p>Company that is dedicated to improving user experience offering phone planes according of their needs.
+
+                            Promotion and sales of telephone plans, complying with diary and weekly goals collaborating with the team for accomplish our monthly goals</p>
+                        <div class="conectorR">
+                            <div class="circleR"></div>
+                        </div>
+                    </div>
+                    <!--<div class="item-right">
+                        <h4>Customer service</h4>
+                        <span class="casa">Academlo</span>
+                        <span class="date">20 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem totam error voluptatibus, sed voluptatem, dolorum magnam porro, repellat sunt voluptatum nobis? Harum molestias architecto, saepe minus itaque earum vero?</p>
+                        <div class="conectorR">
+                            <div class="circuloR"></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-container">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="proyect">
+                    <a href="https://entregable-6-jose-juan-cienfuegos-rio.netlify.app/" target="_blank">
+                        <img src="img/ecommerce-.png" alt="ecommerce">
+                    
+                      
+                    <div class="overlay">
+                        <h3>E-commerce</h3>
+                        <p>This is my e-commerce made it with ReactJs</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="proyect">
+                    <a href="https://rick-and-morty-devjcr.netlify.app/" target="_blank">
+                        <img src="img/rick-&morty.png" alt="rick-y-morty">
+                    
+                      
+                    <div class="overlay">
+                        <h3>Rick and Morty</h3>
+                        <p>i made it with ReactJs</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="proyect">
+                    <a href="https://quote-jose-juan-cienfuegos-rios.netlify.app/" target="_blank">
+                        <img src="img/quote.png" alt="rick-y-morty">
+                    
+                      
+                    <div class="overlay">
+                        <h3>Diseño grafico</h3>
+                        <p>Fotografia2</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="proyect">
+                    <a href="https://usercrud-jose-juan-cienfuegos-rios.netlify.app/" target="_blank">
+                        <img src="img/img1.png" alt="rick-y-morty">
+                    
+                      
+                    <div class="overlay">
+                        <h3>Diseño grafico</h3>
+                        <p>Fotografia2</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACT -->
+    <section id="contact" class="contact">
+        <div class="content-contact">
+            <h2>Contact</h2>
+            <div class="file-contact">
+                <!-- Formulario -->
+                <div class="column">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Topic">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Messagge"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- MAP -->
+                <div class="column">
+                    <img src="img/gps.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Hermosillo, Sonora, MExico
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                contact 6623326565
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                email jcienfuegosrios@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>   
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

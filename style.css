@@ -36,6 +36,7 @@ html{
     font-size: 36px;
     color: #1c69b6;
     text-decoration: none;
+    margin-left: 15px;
 }
 
 .container-header header ul {
@@ -596,6 +597,7 @@ html{
     margin-bottom: 0px;
 }
 
+
 .contact{
     background-image: url(img/contact-bg.png);
     background-color: #252a2e;
@@ -721,6 +723,10 @@ footer .redes a{
     transition: .3s;
 }
 
+footer .redes a:hover{
+    background-color: #1c69b6;
+}
+
 footer .up{
     display: block;
     width: 50px;
@@ -734,6 +740,10 @@ footer .up{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+}
+
+footer .up:hover{
+    background-color: #266cb3; 
 }
 
 @media screen and (max-width:980px){
